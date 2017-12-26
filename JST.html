@@ -33,26 +33,11 @@ p1 {
     background-color: blue;
     color: white;
 }
-div.one {
-    position: absolute;
+div {
+    background-color: lightgrey;
     width: 1300px;
     height: 250px;
-    background-color: lightgrey;
     border: 15px solid black;
-}
-div.two {
-    position: absolute;
-    width: 1300px;
-    height: 250px;
-    background-color: lightgrey;
-    border: 15px solid grey;
-}
-div.three {
-    position: absolute;
-    width: 1300px;
-    height: 250px;
-    background-color: lightgrey;
-    border: 15px solid yellow;
 }	
 </style>
 </head>
@@ -63,43 +48,28 @@ div.three {
     <center><img src="http://pluspng.com/img-png/javascript-logo-vector-png-java-script-js-logo-format-ai-213.png"></img></center>
 
   
-<div class="one">
-<h2>1. Shadow box</h2>
+<div><h2>1. Shadow box</h2>
 <p1>Click the "Try it" button to set the boxShadow property of the DIV element:</p1>
-
 <button onclick="myFunction()">Try it</button>
-
 <div id="myDIV">
-  <h1>Good</h1>
-</div>
-
+  <h1>Good</h1></div>
 <script>
 function myFunction() {
     document.getElementById("myDIV").style.boxShadow = "10px 20px 30px black";
 }
-</script>   
-</div> 
-
+</script></div> 
 
 	
-<div class="two">
-<h2>2. Line-breaks in a popup box</h2>
-	
+<div><h2>2. Line-breaks in a popup box</h2>	
 <p1>Click the "Try it"</p1>
-<button onclick="alert('Hello\nHow are you?')">Try it</button>
-</div>	
+<button onclick="alert('Hello\nHow are you?')">Try it</button></div>	
 
 
-
-<div class="three">
-<h2>3. Display Date and Time</h2>
-   
+<div><h2>3. Display Date and Time</h2>  
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-    
-<p id="demo"></p>   
-</div>
+Click me to display Date and Time.</button>    
+<p id="demo"></p></div>
 
 </body>
 </html>
