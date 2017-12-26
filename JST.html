@@ -33,27 +33,14 @@ p1 {
     background-color: blue;
     color: white;
 }
-div0 {
-    position: absolute;  
-    height: 250px;
+#myDIV2 {
+    position: absolute;
     width: 1330px;
-    background-color: lightgrey;
-    border: 20px solid green;
-}
-div1 {
-    position: absolute;  
     height: 250px;
-    width: 1330px;
-    background-color: lightgrey;
-    border: 20px solid green;
-}
-div2 {
-    position: absolute;  
-    height: 250px;
-    width: 1330px;
     background-color: lightgrey;
     border: 20px solid green;
 }    
+    
 </style>
 </head>
 <body>
@@ -64,7 +51,7 @@ div2 {
 
 
 <p1>.</p1>   
-<div0>
+<div id="myDIV2">
 <h2>1. Shadow box</h2>
 <p1>Click the "Try it" button to set the boxShadow property of the DIV element:</p1>
 
@@ -78,22 +65,18 @@ div2 {
 function myFunction() {
     document.getElementById("myDIV").style.boxShadow = "10px 20px 30px black";
 }
-</script>
-</div0>   
+</script>   
     
 
     
 <p1>.</p1>    
-<div1>
 <h2>2. Line-breaks in a popup box</h2>
 <p1>Click the "Try it"</p1>
 <button onclick="alert('Hello\nHow are you?')">Try it</button>
-</div1>
 
 
     
-<p1>.</p1>
-<div2>    
+<p1>.</p1>    
 <h2>3. Display Date and Time</h2>
 
 <button type="button"
@@ -101,7 +84,7 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
 <p id="demo"></p>   
-</div2>
+</div>
     
 </body>
 </html>
