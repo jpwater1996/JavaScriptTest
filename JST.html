@@ -67,7 +67,7 @@ function myFunction() {
 	
 <div><h2>2. Line-breaks in a popup box</h2>	
 <p1>Click the "Try it"</p1>
-<button onclick="alert('Hello\nHow are you?')">Try it</button></div>	
+<button onclick="alert('Hello\nI'm WaLpaz\nI'm fine')">Try it</button></div>	
 
 
 <div><h2>3. Display Date and Time</h2>  
@@ -85,6 +85,36 @@ Click me to display Date and Time.</button>
   Email: <input type="text"><br>
   Date of birth: <input type="text">
  </fieldset>
-</form></div>	
+</form></div>
+
+	
+<div><h2>5. The += Operator</h2>
+<p id="demo"></p>
+<script>
+var x = 10;
+x += 5;
+document.getElementById("demo").innerHTML = x;
+</script></div>
+	
+	
+<div><h2>6. Timing</h2>
+<p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
+<button onclick="setTimeout(myFunction, 3000);">Try it</button>
+<script>
+function myFunction() {
+    alert('Hello');
+}
+</script></div>
+	
+	
+<div><h2>JavaScript Math.PI</h2>
+<p>Math.PI returns the ratio of a circle's circumference to its diameter:</p>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = Math.PI;
+</script></div>	
+	
+	
+	
 </body>
 </html>
