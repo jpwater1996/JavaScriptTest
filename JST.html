@@ -17,8 +17,8 @@ h2 {
 }
 p {
     font-family: verdana;
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color: black;
     text-align: center;
 }
 p1 {
@@ -26,10 +26,10 @@ p1 {
     font-size: 20px;
     color: black;
 }
-p2 {
+w {
     font-family: verdana;
     font-size: 25px;
-    color: black;
+    color: white;
     text-align: center;
 }
 #myDIV {
@@ -49,7 +49,7 @@ div {
 <body>
 
 <h1>JavaScript Test</h1>
-<p>By Mr.Jakarach Patapee Code: 581102102</p>
+<w>By Mr.Jakarach Patapee Code: 581102102</w>
     <center><img src="http://pluspng.com/img-png/javascript-logo-vector-png-java-script-js-logo-format-ai-213.png"></img></center>
 
   
@@ -69,7 +69,7 @@ function myFunction0() {
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>    
-<p2 id="demo"></p2></div>
+<p id="demo"></p></div>
 
 	
 <div><h2>3. Group related elements in a form</h2>
@@ -100,7 +100,7 @@ function myFunction() {
 
 	
 <div><h2>6. Today is</h2>
-<p2 id="demo2"></p2>
+<p id="demo2"></p>
 <script>
 var day;
 switch (new Date().getDay()) {
@@ -132,7 +132,7 @@ document.getElementById("demo2").innerHTML = "Today is " + day;
 <div><h2>7. JavaScript Math random</h2>
 <p1>Every time you click the button, getRndInteger(min, max) returns a random number between 0 (included) and 10 (excluded):</p1>
 <button onclick="document.getElementById('demo3').innerHTML = getRndInteger(0,10)">Click Me</button>
-<p2 id="demo3"></p2>
+<p id="demo3"></p>
 <script>
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
@@ -142,12 +142,12 @@ function getRndInteger(min, max) {
 	
 <div><h2>JavaScript Array Sort</h2>
 <p1>The sort() method sorts an array alphabetically.</p1>
-<button onclick="myFunction()">Try it</button>
-<p2 id="demo4"></p2>
+<button onclick="myFunction4()">Try it</button>
+<p id="demo4"></p>
 <script>
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits;
-function myFunction() {
+function myFunction4() {
     fruits.sort();
     document.getElementById("demo4").innerHTML = fruits;
 }
