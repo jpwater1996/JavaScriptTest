@@ -7,15 +7,26 @@ body {
 }
 
 h1 {
+    font-size: 40px;
     color: white;
     text-align: center;
 }
-
+h2 {
+    font-size: 20px;
+    color: white;
+}
 p {
     font-family: verdana;
     font-size: 20px;
     color: white;
     text-align: center;
+}
+#myDIV {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    color: white;
 }
 </style>
 </head>
@@ -25,6 +36,21 @@ p {
 <p>By Mr.Jakarach Patapee  Code: 581102102</p>
     <center><img src="http://pluspng.com/img-png/javascript-logo-vector-png-java-script-js-logo-format-ai-213.png"></img></center>
 
+<h2>1. Shadow box</h2>
+<p>Click the "Try it" button to set the boxShadow property of the DIV element:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+  <h1>myDIV</h1>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementById("myDIV").style.boxShadow = "10px 20px 30px lightblue";
+}
+</script>
+    
 </body>
 </html>
 
