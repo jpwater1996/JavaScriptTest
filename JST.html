@@ -107,7 +107,7 @@ function myFunction() {
 </script></div>
 	
 	
-<div><h2>JavaScript Math.PI</h2>
+<div><h2>7. JavaScript Math.PI</h2>
 <p>Math.PI returns the ratio of a circle's circumference to its diameter:</p>
 <p id="demo"></p>
 <script>
@@ -115,6 +115,37 @@ document.getElementById("demo").innerHTML = Math.PI;
 </script></div>	
 	
 	
+<div><h2>8. JavaScript Array Sort</h2>
+<p>The sort() method sorts an array alphabetically.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.sort();
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script></div>
 	
+<div><h2>9. Boolean</h2>	
+<p>Display the value of Boolean(10 > 9):</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = Boolean(10 > 9);
+}
+</script></div>
+        
+        
+
+<div><h2>10. Turn on the light & Turn off the light</h2>
+<p>JavaScript can change HTML attributes.</p>
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button></div>        
 </body>
 </html>
