@@ -129,6 +129,17 @@ document.getElementById("demo2").innerHTML = "Today is " + day;
 </script></div>
 	
 	
+<div><h2>7. JavaScript Math random</h2>
+<p1>Every time you click the button, getRndInteger(min, max) returns a random number between 0 (included) and 10 (excluded):</p1>
+<button onclick="document.getElementById('demo3').innerHTML = getRndInteger(0,10)">Click Me</button>
+<p id="demo3"></p>
+<script>
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+</script></div>	
+	
+	
 	
 </body>	
 </html>
