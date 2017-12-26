@@ -33,11 +33,27 @@ p1 {
     background-color: blue;
     color: white;
 }
-#myDIV1 {
-    position: absolute;
+div {
+    background-color: lightgrey;
     width: 1330px;
-    height: 250px;
-    background-color: white;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+div1 {
+    background-color: lightgrey;
+    width: 1330px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}    
+div2 {
+    background-color: lightgrey;
+    width: 1330px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
     
 </style>
 </head>
@@ -49,13 +65,13 @@ p1 {
 
 
 <p1>.</p1>   
-<div id="myDIV1">
+<div>
 <h2>1. Shadow box</h2>
 <p1>Click the "Try it" button to set the boxShadow property of the DIV element:</p1>
 
 <button onclick="myFunction()">Try it</button>
 
-<div id="myDIV">
+<div>
   <h1>Good</h1>
 </div>
 
@@ -64,51 +80,21 @@ function myFunction() {
     document.getElementById("myDIV").style.boxShadow = "10px 20px 30px black";
 }
 </script>
-</div>
-</body>
-</html>    
+</div>   
     
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-}
-#myDIV2 {
-    position: absolute;
-    width: 1330px;
-    height: 250px;
-    background-color: white;
-}
-</style>
-</head>
-<body>    
+    
 <p1>.</p1>    
-<div id="myDIV2">
+<div1>
 <h2>2. Line-breaks in a popup box</h2>
 <p1>Click the "Try it"</p1>
 <button onclick="alert('Hello\nHow are you?')">Try it</button>
-</div>
-</body>
-</html>    
+</div1>    
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-}
-#myDIV3 {
-    position: absolute;
-    width: 1330px;
-    height: 250px;
-    background-color: white;
-}
-</style>
-</head>
-<body>  
+    
 <p1>.</p1>    
-<div id="myDIV3">
+<div2>
 <h2>3. Display Date and Time</h2>
 
 <button type="button"
@@ -116,7 +102,8 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
 <p id="demo"></p>    
-</div>
+</div2>
+
 </body>
 </html>    
 
